@@ -22,6 +22,10 @@ len(days_list)
 days_list[::-1]
 # Como inserir a palavra 'zero' entre 'a' e 1 de list?
 list.insert(1,'zero')
+# Como atribuir o ultimo elemento de list na variavel ultimo_elemento e remove-lo de list?
+ultimo_elemento = list[-1]
+list.pop()
+del list[-1]
 # Como limpar list?
 list.clear()
 list = []
@@ -29,7 +33,3 @@ list *= 0
 del list[:]
 # Como deletar list?
 del list
-# Como atribuir o ultimo elemento de list na variavel ultimo_elemento e remove-lo de list?
-ultimo_elemento = list[-1]
-list.pop()
-del list[-1]
