@@ -9,6 +9,10 @@ def isEqual(a,b):
 
 list1 = [1,2,3]
 list2 = [1,2,3]
+print(isEqual(list1,list2))
+
+list1 = [1,2,3]
+list2 = [3,2,1]
 
 print(isEqual(list1,list2))
 # 2) Crie uma funcao que verifica se duas strings são palindromes perfeitas. Faca as 'limpeza'/sanitizacao necessarias.  Retorne True ou False.
@@ -27,3 +31,6 @@ palindrome_three = 'luz azul'
 palindrome_four = 'caneta azul'
 
 print(isPalindrome(palindrome_one,palindrome_one[::-1]))
+print(isPalindrome(palindrome_two,palindrome_two[::-1]))
+print(isPalindrome(palindrome_three,palindrome_three[::-1]))
+print(isPalindrome(palindrome_four,palindrome_four[::-1]))
