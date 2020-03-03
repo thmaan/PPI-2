@@ -42,3 +42,4 @@ with open('lista-cpf.txt') as entrada:
             if linha not in unico:
                 saida.write(linha)
                 unico.add(linha)
+        print(len(unico))
