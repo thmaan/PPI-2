@@ -35,8 +35,8 @@ print(professor1)
 #Ao remover capitais do arquivo, retorna-se False, devido a clausula else no loop.
 
 # 3) Faca uma funcao que le o arquivo lista-cpf.txt, retorne a quantidade de CPF unicos (sem repeticao) e os escreva em um arquivo lista-cpf-unicos.txt. Eh necessario descompactar o arquivo lista-cpf.txt.tar.gz primeiro.
-unico = set()
 def contaunico():
+    unico = set()
     with open('lista-cpf.txt') as entrada:
         with open('unique-cpf.txt', 'w+') as saida:
             for linha in entrada:
